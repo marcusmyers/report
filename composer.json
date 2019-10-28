@@ -2,8 +2,8 @@
     "name": "marcusmyers/report",
     "description": "Report is a way to show announcements on a website",
     "keywords": [
-        "marcusmyers",
-        "report"
+        "report",
+        "announcements"
     ],
     "homepage": "https://github.com/marcusmyers/report",
     "license": "MIT",
@@ -17,11 +17,11 @@
     ],
     "require": {
         "php": "^7.1",
-        "illuminate/support": "5.8.*"
+        "illuminate/support": "^6.3"
     },
     "require-dev": {
-        "orchestra/testbench": "3.8.*",
-        "phpunit/phpunit": "^7.0"
+        "orchestra/testbench": "v4.2",
+        "phpunit/phpunit": "^8.4"
     },
     "autoload": {
         "psr-4": {

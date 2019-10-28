@@ -1,11 +1,6 @@
-# Very short description of the package
+# report
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/marcusmyers/report.svg?style=flat-square)](https://packagist.org/packages/marcusmyers/report)
-[![Build Status](https://img.shields.io/travis/marcusmyers/report/master.svg?style=flat-square)](https://travis-ci.org/marcusmyers/report)
-[![Quality Score](https://img.shields.io/scrutinizer/g/marcusmyers/report.svg?style=flat-square)](https://scrutinizer-ci.com/g/marcusmyers/report)
-[![Total Downloads](https://img.shields.io/packagist/dt/marcusmyers/report.svg?style=flat-square)](https://packagist.org/packages/marcusmyers/report)
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Report is used to add simple announcements to a web site.
 
 ## Installation
 
@@ -18,7 +13,7 @@ composer require marcusmyers/report
 ## Usage
 
 ``` php
-// Usage description here
+$announcements = Report::getAnnouncements();
 ```
 
 ### Testing
@@ -26,6 +21,11 @@ composer require marcusmyers/report
 ``` bash
 composer test
 ```
+
+### Todo
+
+[] Add custom views
+[] Add a way to test the facade
 
 ### Changelog
 
